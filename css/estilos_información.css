@@ -4,6 +4,11 @@
  
 }
 
+@font-face {
+    font-family: 'RockSalt-Regular';
+    src: url('../img/RockSalt-Regular.ttf') format('truetype');
+}
+
 body {
     background: #fff;
 }
@@ -11,9 +16,13 @@ body {
 .header {
     background-color:#f2f2f2;
     padding: 15px;
-    display: flex;
-    
-  
+    display: flex; 
+}
+
+h3 {
+    text-align: center;
+    font-size: 16px;
+    color: #8D1F28;
 }
 
 .logo {
@@ -58,7 +67,6 @@ li a:hover {
 .walpaper {
     max-width: 100%;
     padding: 0;
-     
 }
  
 .encabezadoDeBandas {
@@ -67,11 +75,12 @@ li a:hover {
     font-size: 30px;
     margin: 40px 0px 40px 0px;
     text-align: center;
-
 }
+
 .centro {
     justify-self: center;
 }
+
 .descrpcion {
     font-family: 'Roboto', sans-serif;
     color: #000000;
@@ -81,9 +90,22 @@ li a:hover {
     padding: 10%;
 }
 .inegrantesDeBandas {
-    height: 300px;
+    height: 50%;
     width: 100%;
 }
 .circulo-integrantes {
     width: 40%;
+}
+.genero {
+    height: 100%;
+    width: 100%;
+    background-color: #D92526;
+    padding: 2%;
+}
+.encabezadoDeGenero {
+    color: #f2f2f2;
+    font-family: 'RockSalt-Regular';
+    font-size: 30px;
+    margin: 40px 0px 40px 0px;
+    text-align: center;
 }
