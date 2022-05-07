@@ -25,6 +25,21 @@ h3 {
     color: #8D1F28;
 }
 
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #8D1F28;  
+    font-size: 40px;
+    text-align: center;
+    background-color: #f2f2f2;
+    
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10%;
+}
+
 .logo {
      size: 254px 5px;
      padding: 30px;
@@ -108,4 +123,40 @@ li a:hover {
     font-size: 30px;
     margin: 40px 0px 40px 0px;
     text-align: center;
+}
+.circuloDeBanda {
+    border: #f2f2f2;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.sliderdiscos {
+    background-color: #000000;
+    padding-top: 10%;
+}
+.tituloDeProducciones {
+    color: #f2f2f2;
+    text-align: center;
+    font-family: 'RockSalt-Regular';
+    
+}
+.portada {
+    width: 100%;
+    
+}
+.informacioDeDiscos {
+    padding-top: 5%;
+}
+.subtitulo {
+    color: #8D1F28;
+    font-family: 'Roboto', sans-serif;
+}
+.titulo {
+    color: #8D1F28;
+    font-family: 'Roboto', sans-serif;
+}
+.listaIntegrantes {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
 }
