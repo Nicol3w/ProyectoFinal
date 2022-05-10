@@ -160,3 +160,16 @@ li a:hover {
     color: #000000;
     font-family: 'Roboto', sans-serif;
 }
+.canciones {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.tiempo {
+    color: #8D1F28;
+}
+.listaDeCanciones {
+    margin-top: 3%;
+}
+.volAlbum {
+    color: #8D1F28;
+}
