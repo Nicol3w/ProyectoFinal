@@ -173,3 +173,12 @@ li a:hover {
 .volAlbum {
     color: #8D1F28;
 }
+.tituloDeIntegrantes {
+    text-align: center;
+    font-family: 'RockSalt-Regular';
+    color: #8D1F28;
+}
+.flechaSiguiente {
+    color: #000000;
+}
+
