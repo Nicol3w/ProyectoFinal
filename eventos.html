@@ -1,327 +1,724 @@
 <html lang="es">
-<head>
-  <title>Rack Metal Magazine/Eventos</title>
-  <meta charset="utf-8">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Rock+Salt&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="css/estilos_eventos.css">
-</head>
 
-<body> 
-    <div class="container col-lg-auto" style="max-width: 100%;padding: 0;">
+  <head>
+    <title>Rack Metal Magazine/Eventos</title>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Rock+Salt&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos_eventos.css">
+  </head>
+
+  <body>
+    <div class="container col-md-auto" style="max-width: 100%;padding: 0;">
 
 
-        <div class="header container" style="max-width: 100%;padding: 0;">
-            <div class="container col-lg-6">
-                <div class="flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                        <div class="col-lg-4" style="padding: 30px;">
-                            <img src="img/imagotipocompleto 1.png"></img>
-                        </div>
-                        <div class="col-lg-2"></div>
-                        <div class="col-lg-6 text-end" style="padding: 40px 25px 25px 25px;">
-                            <input  type="search" style="color: #D92526; border:2px solid; border-radius: 18px;padding-left: 13px;" placeholder="Búsqueda" style="color: black;" name="search">
-                            <img class="rota-horizontal" style= "width: 23.87px; height: 23.87px;"  src="img/search-free-icon-font.png" >
-                        </div>
-                    </ul>
+      <div class="header container" style="max-width: 100%;padding: 0;">
+        <div class="container col-md-6 col-sm-10" id="barraDeArriba">
+          <div class="flex-wrap align-items-center justify-content-center justify-content-md-start">
+            <ul class="nav col-12 col-md-auto me-lg-auto mb-2 mb-md-0">
+              <div class="col-sm-1 d-md-none" name="gapinicial">
+
+              </div>
+              <div class="col-md-4 col-sm-5" style="padding-top: 30px; padding-bottom: 30px;">
+                <img src="img/imagotipocompleto 1.png"></img>
+              </div>
+              <div class="col-sm-4 col-md-2" name="gapsustituyetextobusqueda"></div>
+              <div class="col-md-6 text-end col-sm-1" style="padding-top: 40px; padding-bottom: 40px;">
+                <div class="col-md-6 d-sm-none">
+                  <input type="search" style="color: #D92526; border:2px solid; border-radius: 18px; padding-left: 13px;"
+                    placeholder="Búsqueda" style="color: black;" name="search">
                 </div>
-            </div>
+                <div class="col-sm-2">
+                  <img class="rota-horizontal" style="width: 23.87px; height: 23.87px;" src="img/search-free-icon-font.png">
+                </div>
+              </div>
+              <div class="col-sm-1 d-md-none" style="padding-top: 30px; padding-bottom: 40px;">
+                <nav class="navbar  navbar-light ">
+                  <button style="border-color: transparent;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                  <!-- logo -->
+                  
 
-            <nav class="col-lg-6">
+                  <!-- enlaces -->
+                  <div class="collapse navbar-collapse" id="opciones">   
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Opción 1</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Opción 2</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Opción 3</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Opción 4</a>
+                      </li>            
+                    </ul>
+                  </div>
+                </nav>
+              </div>
 
-                    <strong>
-                        <ul class="text-end" style="margin: 0;">
-                            <li><a href= "eventos.html" class="text-black">Eventos</a></li>
-                            <li><a href="información.html" class="text-black">Información</a></li>
-                            <li><a href="Contactos.html" class="text-black">Contactos</a></li>
-                            <li> <!---el iconito de accesibilidad va aqui---> </li>
-                        </ul>
-                    </strong>
-            </nav>
-           
+            </ul>
+          </div>
         </div>
-       <main class="container" style="max-width: 100%; padding: 0;">
-           <div >
-            <img class="center-block col-lg-12 " src="img/Guitarra_eve_.jpg" class="img-fluid" style= max-width:100%; >
-           </div>
+
+        <nav class="col-md-6 d-xs-none">
+          <strong>
+            <ul class="text-end" style="margin: 0;">
+              <li><a href="eventos.html" class="text-black">Eventos</a></li>
+              <li><a href="información.html" class="text-black">Información</a></li>
+              <li><a href="Contactos.html" class="text-black">Contactos</a></li>
+              <li>
+                <!---el iconito de accesibilidad va aqui--->
+              </li>
+            </ul>
+          </strong>
+        </nav>
+
+      </div>
+
+      <main class="container" style="max-width: 100%; padding: 0;">
+        <div>
+          <img class="center-block col-lg-12 " src="img/Guitarra_eve_.jpg" class="img-fluid" style=max-width:100%;>
+        </div>
         <h1>Cartelera de eventos nacionales próximos</h1>
-        <div id="carouselExampleControlsNoTouching" class="carousel slide col-lg-12" data-bs-touch="false" data-bs-interval="false">
-            <div class="carousel-inner">
-              <div class="carousel-item active" style= " background: #000;">
-                <img style="width: 100%; height: 100%;" src="img/portada-costaricaindustrialfest 1.jpg" class="d-block col-lg-12">
-              </div>
-              <div class="carousel-item" style= "background: #000;">
-                <img class="d-block w-100" src="..." alt="Second slide">
-              </div>
-              <div class="carousel-item" style= "background: #000;">
-                <img class="d-block w-100" src="..." alt="Second slide">
-              </div>
+        <div id="carouselExampleControlsNoTouching" class="carousel slide col-lg-12" data-bs-touch="false"
+          data-bs-interval="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active" style=" background: #000;">
+              <img style="width: 100%; height: 100%;" src="img/portada-costaricaindustrialfest 1.jpg"
+                class="d-block col-lg-12">
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="carousel-item" style="background: #000;">
+              <img style="width: 100%; height: 100%;" src="img/Grouprf.jpg" >
+            </div>
+            <div class="carousel-item" style="background: #000;">
+              <img style="width: 100%; height: 100%;" src="img/dia_rock.jpg" >
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
 
         <!--img style="width: 100px; border-radius: 50%;height: 100px;" src="img/portada-costaricaindustrialfest 1.jpg" class="d-block"   PARA MARCO CIRCULAR   -->
 
-        <div style="height: 957px; background:#000;">
+        <div style="background:#000;">
           <div style="padding:35px">
-         <div class="grid-container"> 
-          <div item1>
-          <h3>Eventos</h3>
-          <div class="input-group mb-3" style="width: 398px; height:50px" >
-            
-            <select class="form-select" id="inputGroupSelect01">
-              <option class="text:none"selected></option>
-              <option value="1">Industrial Fest</option>
-              <option value="2">Rock Fest</option>
-              <option value="3">Three</option>
-            </select>
-          </div>
-          </div>
+            <div class="grid-container">
+              <div item1>
+                <h3>Eventos</h3>
+                <div class="input-group mb-3" style="width: 398px; height:50px">
 
-          <div item2>
-          <h3>Fecha</h3>
-          <div class="input-group mb-3 " style="width: 398px; height:50px">
-           
-            <select class="form-select" id="inputGroupSelect01">
-              <option class="text:none"selected></option>
-              <option value="1">9 de abril de 2022</option>
-              <option value="2">14 de mayo de 2022</option>
-              <option value="3">Three</option>
-            </select>
-          </div>
-          </div>
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option class="text:none" selected></option>
+                    <option value="1">Industrial Fest</option>
+                    <option value="2">Rock Fest</option>
+                    
+                  </select>
+                </div>
+              </div>
 
-            <div item3>
-             <h3>Hora</h3>
-              <div class="input-group mb-3 " style="width: 217px; height:50px">
-          
-              <select class="form-select" id="inputGroupSelect01">
-               <option class="text:none" selected></option>
-               <option value="1">12:00pm-10:00pm</option>
-               <option value="2">9:00am</option>
-               <option value="3">Three</option>
-               </select>
-             </div>
-           </div>
-           
-           <div item4>
-            <h3>Ubicación</h3>
-            <div class="input-group mb-3" style="width: 398px; height:50px">
-          
-              <select class="form-select" id="inputGroupSelect01">
-              <option class="text:none" selected></option>
-              <option value="1">Zapote</option>
-              <option value="2">Alajuela, Parque Viva</option>
-              <option value="3">Three</option>
-              </select>
+              <div item2>
+                <h3>Fecha</h3>
+                <div class="input-group mb-3 " style="width: 398px; height:50px">
+
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option class="text:none" selected></option>
+                    <option value="1">9 de abril de 2022</option>
+                    <option value="2">14 de mayo de 2022</option>
+                    
+                  </select>
+                </div>
+              </div>
+
+              <div item3>
+                <h3>Hora</h3>
+                <div class="input-group mb-3 " style="width: 217px; height:50px">
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option class="text:none" selected></option>
+                    <option value="1">12:00pm-10:00pm</option>
+                    <option value="2">9:00am</option>
+                    
+                  </select>
+                </div>
+              </div>
+              <div item4>
+                <h3>Ubicación</h3>
+                <div class="input-group mb-3" style="width: 398px; height:50px">
+
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option class="text:none" selected></option>
+                    <option value="1">Zapote</option>
+                    <option value="2">Alajuela, Parque Viva</option>
+                  
+                  </select>
+                </div>
+              </div>
             </div>
-         </div>
-         </div>
-         </div>
-         <br>
-          <h2 class="bandas" >Bandas participantes</h2>
+          </div>
+          <br>
+          <h2 class="bandas">Bandas participantes</h2>
 
           <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div class= "grid-container2" >
+                <div class="grid-container2">
                   <div class="item 1">
-                   <img style="width: 291.61px; border-radius: 50%;height: 291.61px; border: 5px solid #f2f2f2" src="img/Emilbus Lainomerec Ebycolisp-elipse.png" class="d-block" >
-                  </div>   
-                  <div class="item 2">
-                   <img style="width: 291.61px; border-radius: 50%;height: 291.61px; border: 5px solid #f2f2f2" src="img/Terrorifica-elipse.png" class="d-block">
-                  </div>
-                  <div class="item 3">
-                   <img style="width: 291.61px; border-radius: 50%;height: 291.61px; border: 5px solid #f2f2f2" src="img/Medianoche-elipse.png" class="d-block">
-                  </div>
-               </div>
-              </div>
-              <div class="carousel-item">
-                <div class= "grid-container2" >
-                  <div class="item 1">
-                   <img style="width: 339px; border-radius: 50%;height: 339px; border: 5px solid #f2f2f2" src="img/Emilbus Lainomerec Ebycolisp-elipse.png" class="d-block" >
+                    <img style="margin: auto; width: 291.61px; border-radius: 50%;height: 291.61px; border: 5px solid #f2f2f2"
+                      src="img/Emilbus Lainomerec Ebycolisp-elipse.png" class="d-block">
                   </div>
                   <div class="item 2">
-                   <img style="width: 339px; border-radius: 50%;height: 339px; border: 5px solid #f2f2f2" src="img/Terrorifica-elipse.png" class="d-block">
+                    <img style="margin: auto; width: 291.61px; border-radius: 50%;height: 291.61px; border: 5px solid #f2f2f2"
+                      src="img/Terrorifica-elipse.png" class="d-block">
                   </div>
                   <div class="item 3">
-                   <img style="width: 339px; border-radius: 50%;height: 339px; border: 5px solid #f2f2f2" src="img/Medianoche-elipse.png" class="d-block">
+                    <img style="margin: auto;width: 291.61px; border-radius: 50%;height: 291.61px; border: 5px solid #f2f2f2"
+                      src="img/Medianoche-elipse.png" class="d-block">
                   </div>
-               </div>
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <div class="grid-container2">
+                  <div class="item 1">
+                    <img style="margin: auto; width: 291.61px; border-radius: 50%;height: 291.61px; border: -1px solid #f2f2f2"
+                      src="img/Ellipse 52.png" class="d-block">
+                  </div>
+                  <div class="item 2">
+                    <img style="margin: auto; width: 291.61px; border-radius: 50%;height: 291.61px; border: 5px solid #f2f2f2"
+                      src="img/Ellipse 54.png" class="d-block">
+                  </div>
+                  <div class="item 3">
+                    <img style="margin: auto; width: 291.61px; border-radius: 50%;height: 291.61px; border: 0px solid #f2f2f2"
+                      src="img/TM.png" class="d-block">
+                  </div>
+                </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+              data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
 
-          <div class="col-lg-12" style="height: 838px; background-color: #f2f2f2;">
-           <h4 style="color: #8D1F28; font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 40px;">Eventos de bandas internacionales</h4>  
-           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
+          <div class="col-lg-12" style="padding-bottom: 40px; background-color: #f2f2f2;">
+            <div style="padding-bottom: 40px;;">
+              <h4 style="padding: 35px; color: #8D1F28; font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 40px;">
+                Eventos
+                de bandas internacionales</h4>
+          
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                 
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+          
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                      <div class="col">
+                        <div style="width: 314px; height: 530px; background-color: #515151; margin: auto;" class="card h-100">
+                          <a href="#!" data-bs-toggle="modal" data-bs-target="#Modal">
+                            <img style=" height: 303px;" src="img/Rectangle 139.jpg" class="card-img-top"></a>
+                          <div class="card-body">
+                            <h5 style=" color:#f2f2f2;" class="card-title">Ross The Boss en la batalla en Oviedo</h5>
+          
+                            <!-- Modal -->
+                            <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="Modal" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="Modal">Ross The Boss en la batalla en Oviedo</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <p style="text-align: justify;">Ross The Boss, la guitarra callejera de los neoyorquinos The
+                                      Dictators y el riffero de los grandes
+                                      clásicos de
+                                      Manowar, se hizo acompañar en esta gira por Cobra Spell y Dark Embrace. Dos esparrings de
+                                      gran nivel, y
+                                      que sumaron
+                                      esa variedad sonora que tanto reclaman los que buscan algo más que la monogamia sonora.
+                                      <br>
+                                      Ross The Boss empieza un concierto con ‘Blood Of The Kings’, y además de ganarse a todo el
+                                      mundo,
+                                      certifica que
+                                      estamos ante una declaración de intenciones, y una celebración de la nostalgia. Eso sí,
+                                      cuando tienes al
+                                      frente a Marc
+                                      López a la voz, tenemos a alguien con capacidades para intentar emular el legado de todo un
+                                      tótem como
+                                      Eric Adams.
+                                      Ganada la primera batalla, la victoria final más que encarrilada. Lejos de soliloquios
+                                      fútiles, extensos
+                                      intros y
+                                      palabrería obsoleta la versión creada por Ross The Boss de la otra leyenda neoyorquina en la
+                                      que militó
+                                      convence
+                                      descargando un himno tras otro. No podemos negar que los temas de cosecha propia no conectan
+                                      con la
+                                      gente como ‘Black
+                                      Wind, Fire & Steel’ , ‘Fighting The World’ o ‘Hail And Kill’, pero el conjunto logra dejar
+                                      satisfecho al
+                                      buen número
+                                      final de fieles.
+                                      Noventa minutos que dejaron exhaustos y sonrientes tanto a banda como a público.
+                                    </p>
+                                  </div>
+          
+                                </div>
+                              </div>
+                            </div>
+          
+          
+          
+          
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div style="width: 314px; height: 530px; background-color: #515151; margin: auto;" class="card h-100">
+                          <a href="#!" data-bs-toggle="modal" data-bs-target="#Modal1">
+                            <img style=" height: 303px;" src="img/Rectangle 138.jpg" class="card-img-top"></a>
+                          <div class="card-body">
+                            <h5 style=" color:#f2f2f2;" class="card-title">Personas sordas disfrutaron concierto de Coldplay con
+                              tecnología e intérpretes</h5>
+          
+                            <!-- Modal -->
+                            <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="Modal1" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="Modal1">Personas sordas disfrutaron concierto de Coldplay con
+                                      tecnología e intérpretes</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <p style="text-align: justify;">Un grupo de personas sordas disfrutaron la noche del viernes
+                                      el concierto de Coldplay en el Estadio Nacional, en
+                                      San José, con chalecos capaces de captar vibraciones e intérpretes de lengua de señas
+                                      costarricense (Lesco).
+                                      <br>
+                                      Los mismos estuvieron disponibles en un espacio accesible habilitado por la organización del
+                                      evento, a cargo de SD
+                                      Concerts,
+                                      según lo dio a conocer el profesor del centro de enseñanza Hands-On, Luis Diego Chan, en una
+                                      serie de publicaciones
+                                      realizadas en su cuenta personal de Instagram.
+                                      <br>
+                                      “Estoy en el concierto de Coldplay, vean que interesante: Estos chalecos se conectan con la
+                                      música de la banda para
+                                      sentir las vibraciones, está súper interesante.
+                                      <br>
+                                      “Es muy diferente, es mi primera vez, está muy chiva”, comentó Chan en los stories subidos,
+                                      al tiempo que destacó que
+                                      espectáculo fue muy visual, lo que le permitió vivir mejor la experiencia.
+                                    </p>
+                                  </div>
+          
+                                </div>
+                              </div>
+                            </div>
+          
+          
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div style="width: 314px; height: 530px; background-color: #515151; margin: auto;" class="card h-100">
+                          <a href="#!" data-bs-toggle="modal" data-bs-target="#Modal2">
+                            <img style=" height: 303px;" src="img/Rectangle 137.jpg" class="card-img-top"></a>
+                          <div class="card-body">
+                            <h5 style=" color:#f2f2f2;" class="card-title">Ann Wilson, ‘Love of my Life’ de Queen</h5>
+                      
+                            <!-- Modal -->
+                            <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal2" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="Modal2">Ann Wilson, ‘Love of my Life’ de Queen</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <p style="text-align: justify;">‘Love of My Life’ es una hermosa canción sobre el amor infinito. Fue un
+                                      honor para mí hacer un dúo con Vince Gill; ¡una
+                                      experiencia inolvidable por la que estoy agradecida!”, Ann Wilson
+                                      <br>
+                                      A Wilson siempre le ha gustado dar nueva vida y brío a las canciones clásicas. «Tuve la idea de que la
+                                      canción de Queen
+                                      ‘Love of My Life’ fuera un dúo, así que traté de imaginar quién sería el ángel masculino que cantaría la
+                                      otra parte,
+                                      explica Wilson. Pensé en lo bien que quedaría la canción si se despojara de ella y sólo se cantara con
+                                      alma, y tenía
+                                      que ser Vince Gill porque tiene esa voz, ese alma.
+                                      <br>
+                                      La interpretación de Wilson de ‘Bridge of Sighs’ de Robin Trower es otra espectacular versión del
+                                      clásico que aparece en
+                                      Fierce Bliss. En mi opinión, ‘Bridge of Sighs’ es la mejor canción de blues que se ha escrito jamás. Eso
+                                      es realmente
+                                      decir algo porque es la inmensidad del mundo del blues, pero esta canción es sobre el verdadero pavor
+                                      existencial. No es
+                                      sólo que estés dolido porque has perdido a tu novio o novia, sino que estás al borde del abismo.
+                                      <br>
+                                      Me gustan las cosas que llegan hasta el final, continúa Wilson. Soy una de esas personas que a medias no
+                                      es
+                                      suficiente. Así que, con Kenny Wayne Shepherd, uno de los guitarristas más geniales que existen, tenía
+                                      mucho sentido, y
+                                      lo destrozó. Una de las cosas más gratificantes para mí como cantante es no tener prisa. Los mejores
+                                      cantantes son los
+                                      que pueden cantar baladas y hacer que realmente funcionen, porque no hay que ser un genio para ser un
+                                      gritón del rock o
+                                      cantar canciones de rock. Pero esa balada, en la que se ralentiza o se detiene y tú eres el centro del
+                                      escenario con el
+                                      foco de atención? Cada pequeño matiz es importante, y creo que eso es lo que fue ‘Bridge of Sighs’ para
+                                      mí.
+                                    </p>
+                                  </div>
+                      
+                                </div>
+                              </div>
+                            </div>
+                      
+                          </div>
+                        </div>
+                      
+                      
+                      
+                      </div>
+                      </div>
+                      </div>
+
+
+
+                  <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                      <div class="col">
+                        <div style="width: 314px; height: 530px;  background-color: #515151; margin: auto;" class="card h-100">
+                          <a href="#!" data-bs-toggle="modal" data-bs-target="#Modal3">
+                            <img style=" height: 303px;" src="img/Rectangle 140.jpg" class="card-img-top"></a>
+                          <div class="card-body">
+                            <h5 style=" color:#f2f2f2;" class="card-title">Apoyo a los refugiados ucranianos </h5>
+                  
+                            <!-- Modal -->
+                            <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="Modal3" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="Modal3">Apoyo a los refugiados ucranianos</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <p style="text-align: justify;">‘Ukrainian War Refugee Support’ es un compilación en la que participan
+                                      bandas como Mono, Year Of No Light, Bruit, Som,
+                                      Årabrot, Psychonaut, Nyos, Shy, Low, Enphin, Oslo Tapes, Briqueville, Blessings, Johan G Winther…
+                                      cuyo objetivo es
+                                      recaudar fondos destinados a los refugiados ucranianos víctimas de la invasión de Putin y sus
+                                      Oligarcas.
+
+                                      <br>
+                                      Esta es una iniciativa del sello Pelagic a raíz de los acontecimientos actuales y de la tragedia de
+                                      Ucrania, porla cual
+                                      estas bandas contribuyen a ayudar a los refugiados de guerra que han perdido sus hogares y que
+                                      llegan por miles a
+                                      Berlín. Nos pusimos en contacto con nuestros artistas para recopilar un sampler de doble casete con
+                                      material exclusivo
+                                      e inédito, numerado a mano y estrictamente limitado a 200 copias.
+
+                                      <br>
+                                      Puedes hacer tu compra anticipada en este enlace y de paso apoyar a una causa humanitaria.
+                                      <br>
+                                      El 100% de los beneficios se donará a Be an Angel e.V. Berlín, una iniciativa de personas
+                                      relacionadas con los medios de
+                                      comunicación, la cultura y el marketing que trabajan para crear una red de apoyo para la integración
+                                      de refugiados.
+                                      <br>
+                                      ¿Saldrá alguna vez en vinilo? De momento el sello no tiene planes para ello, ya que los plazos de
+                                      entrega son demasiado
+                                      largos y, con suerte, para cuando tengamos el vinilo la guerra habrá terminado. Eso esperamos todos
+                                      y en especial el
+                                      pueblo ucraniano.
+                                    </p>
+                                  </div>
+                  
+                                </div>
+                              </div>
+                            </div>
+                  
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div style="width: 314px; height: 530px; background-color: #515151; margin: auto;" class="card h-100">
+                          <a href="#!" data-bs-toggle="modal" data-bs-target="#Modal4">
+                            <img style=" height: 303px;" src="img/Rectangle 38.jpg" class="card-img-top"></a>
+                          <div class="card-body">
+                            <h5 style=" color:#f2f2f2;" class="card-title">Coldplay ¡Qué clase de espectáculo!</h5>
+                  
+                            <!-- Modal -->
+                            <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="Modal4" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="Modal4">Coldplay ¡Qué clase de espectáculo!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <p style="text-align: justify;"> Si las expectativas para el concierto de Coldplay eran altas,
+                                      fueron superadas por completo y los fans, no solo de Costa Rica sino de toda Centroamérica, tuvieron
+                                      una
+                                      noche mágica.
+                                      <br>
+                                      La banda salió bastante puntual y abrió el espectáculo con su éxito “Higher power”. Los presentes
+                                      ovacionaron y siguieron el coro de la canción.
+                                      <br>
+                                      La sorpresa fueron las pulseras con luces led que le fueron entregadas a casi todos los presentes
+                                      para
+                                      que formaran parte del espectáculo.
+                                      Estas se encendían, apagaban y cambiaban de colores conforme la música. Además, aportaron un
+                                      espectáculo
+                                      de luces en todo el escenario.
+                                      <br>
+                                      Después, siguió el éxito “Feel My Heart” y luego las más esperadas “Paradise” y “Scientist”.
+                  
+                                      Fue una noche definitivamente de muchos sentimientos y a los alrededores nadie podía estar sentado,
+                                      ni
+                                      siquiera en las baladas de la banda.
+                  
+                                      Para los que madrugaron y hasta durmieron en las afueras del estadio ¡valió completamente la pena!
+                  
+                                      El vocalista Chris Martin, como es su costumbre, sumamente cercano al público, dijo estar orgulloso
+                                      de
+                                      iniciar la gira en Costa Rica y agradeció a todas las otras personas que habían llegado al país
+                                      desde
+                                      Centroamérica para ver a la banda.
+                                    </p>
+                                  </div>
+                  
+                                </div>
+                              </div>
+                            </div>
+                  
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div style="width: 314px; height: 530px; background-color: #515151; margin: auto;" class="card h-100">
+                          <a href="#!" data-bs-toggle="modal" data-bs-target="#Modal5">
+                            <img style=" height: 303px;" src="img/Rectangle 141.jpg" class="card-img-top"></a>
+                          <div class="card-body">
+                            <h5 style=" color:#f2f2f2;" class="card-title">Slash nuevo disco y Gibson Les Paul Standard</h5>
+                  
+                            <!-- Modal -->
+                            <div class="modal fade" id="Modal5" tabindex="-1" aria-labelledby="Modal5" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="Modal5">Slash nuevo disco y Gibson Les Paul Standard</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <p style="text-align: justify;">Un álbum de rock vibrante alimentado por ganchos de guitarra
+                                      memorables y melodías convincentes, grandes estribillos y
+                                      riffs aún más grandes; ‘4’ se basa en el legado de Slashy Myles kennedy. Esa sensibilidad aparece
+                                      inmediatamente en el
+                                      primer single, ‘The River Is Rising’.
+                                      <br>
+                                      Slash describe ‘The River Is Rising’: “Hay dos o tres canciones en el disco que se escribieron
+                                      durante la pandemia; todo
+                                      lo demás fue antes. ‘The River is Rising’ fue una de las últimas que compuse antes de empezar la
+                                      preproducción, y como
+                                      era tan fresca y tenía un cierto ritmo y energía, fue lo primero que atacamos».
+                                      <br>
+                                      Mientras que Myles Kennedy añade: La letra explora, en última instancia, cómo a los seres humanos
+                                      se les puede lavar el
+                                      cerebro o adoctrinar con algún tipo de idea peligrosa. Para mí, es un tema importante.
+                                      <br>
+                                      El nuevo álbum tiene la distinción añadida de ser el primero que publica en el nuevo sello Gibson
+                                      Records, que tiene su
+                                      sede en Nashville, TN. En otro movimiento innovador, Gibson conmemorará este primer álbum de Gibson
+                                      Records, con un
+                                      paquete de guitarra Slash Les Paul Standard 4 Album Edition de edición limitada que saldrá a la
+                                      venta en febrero de
+                                      2022.
+                                    </p>
+                                  </div>
+                  
+                                </div>
+                              </div>
+                            </div>
+                  
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                  </div>
+              
+            </div>
+          </div>
+            <br>
+          <div style="padding:35px; background-color: #000;">
+            <div class="grid-container">
+              <div item1>
+                <h3>Eventos</h3>
+                <div class="input-group mb-3" style="width: 398px; height:50px">
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option class="text:none" selected></option>
+                    <option value="1">KISS</option>
+                    <option value="2">Maroon5</option>
+                    <option value="3">Coldplay</option>
+                  </select>
+                </div>
+              </div>
+              <div item2>
+                <h3>Fecha</h3>
+                <div class="input-group mb-3 " style="width: 398px; height:50px">
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option class="text:none" selected></option>
+                    <option value="1">26 de noviembre de 2022</option>
+                    <option value="2">17 de setiembre de 2022</option>
+                    <option value="3">31 de octubre de 2022</option>
+                  </select>
+                </div>
+              </div>
+              <div item3>
+                <h3>Hora</h3>
+                <div class="input-group mb-3 " style="width: 217px; height:50px">
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option class="text:none" selected></option>
+                    <option value="1">12:00pm-10:00pm</option>
+                    <option value="2">11:00am</option>
+                    <option value="3">6:00pm</option>
+                  </select>
+                </div>
+              </div>
+              <div item4>
+                <h3>Ubicación</h3>
+                <div class="input-group mb-3" style="width: 398px; height:50px">
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option class="text:none" selected></option>
+                    <option value="1">Alajuela, Parque Viva</option>
+                    <option value="2">Estadio Ricardo Saprissa</option>
+                    <option value="3">Estadio Nacional</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="background-color:#000;">
+          <h2 class="bandas">Bandas participantes</h2>
+
+          <div id="carouselExampleFade1" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="..." alt="First slide">
+                <div class="grid-container2">
+                  <div class="item 1">
+                    <img style="margin: auto; width: 291.61px; border-radius: 50%;height: 291.61px; border: 5px solid #f2f2f2"
+                      src="img/Ellipse 53.png" class="d-block">
+                  </div>
+                  <div class="item 2">
+                    <img style="margin: auto; width: 291.61px; border-radius: 50%;height: 291.61px; border: 5px solid #f2f2f2"
+                      src="img/coldp.png" class="d-block">
+                  </div>
+                  <div class="item 3">
+                    <img style="margin: auto;width: 291.61px; border-radius: 50%;height: 291.61px; border: 0px solid #f2f2f2"
+                      src="img/Maroon5.png" class="d-block">
+                  </div>
+                </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Second slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Third slide">
+                <div class="grid-container2">
+                  <div class="item 1">
+                    <img style="margin: auto; width: 291.61px; border-radius: 50%;height: 291.61px; border: 0px solid #f2f2f2"
+                      src="img/Linkin P.png" class="d-block">
+                  </div>
+                  <div class="item 2">
+                    <img style="margin: auto; width: 291.61px; border-radius: 50%;height: 291.61px; border: 0px solid #f2f2f2"
+                      src="img/Green day.png" class="d-block">
+                  </div>
+                  <div class="item 3">
+                    <img style="margin: auto; width: 291.61px; border-radius: 50%;height: 291.61px; border: 5px solid #f2f2f2"
+                      src="img/Ellipse 55.png" class="d-block">
+                  </div>
+                </div>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-        <div style="height: 957px; background:#000;">
-          <div style="padding:35px">
-         <div class="grid-container"> 
-          <div item1>
-          <h3>Eventos</h3>
-          <div class="input-group mb-3" style="width: 398px; height:50px" >
-            
-            <select class="form-select" id="inputGroupSelect01">
-              <option class="text:none"selected></option>
-              <option value="1">Industrial Fest</option>
-              <option value="2">Rock Fest</option>
-              <option value="3">Three</option>
-            </select>
-          </div>
-          </div>
 
-          <div item2>
-          <h3>Fecha</h3>
-          <div class="input-group mb-3 " style="width: 398px; height:50px">
-           
-            <select class="form-select" id="inputGroupSelect01">
-              <option class="text:none"selected></option>
-              <option value="1">9 de abril de 2022</option>
-              <option value="2">14 de mayo de 2022</option>
-              <option value="3">Three</option>
-            </select>
-          </div>
-          </div>
-
-            <div item3>
-             <h3>Hora</h3>
-              <div class="input-group mb-3 " style="width: 217px; height:50px">
           
-              <select class="form-select" id="inputGroupSelect01">
-               <option class="text:none"selected></option>
-               <option value="1">12:00pm-10:00pm</option>
-               <option value="2">9:00am</option>
-               <option value="3">Three</option>
-               </select>
-             </div>
-           </div>
-           
-           <div item4>
-            <h3>Ubicación</h3>
-            <div class="input-group mb-3" style="width: 398px; height:50px">
-          
-              <select class="form-select" id="inputGroupSelect01">
-              <option class="text:none" selected></option>
-              <option value="1">Zapote</option>
-              <option value="2">Alajuela, Parque Viva</option>
-              <option value="3">Three</option>
-              </select>
-            </div>
-         </div>
-         </div>
-         </div>
-         <br>
-          <h2 class="bandas" >Bandas participantes</h2>
-
-          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class= "grid-container2" >
-                  <div class="item 1" style="margin: auto;">
-                   <img style="width: 265.26px; border-radius: 50%;height: 265.26px; border: 5px solid #f2f2f2" src="img/Emilbus Lainomerec Ebycolisp-elipse.png" class="d-block" >
-                  </div>
-                  <div class="item 2" style="margin: auto;">
-                   <img style="width: 265.26px; border-radius: 50%;height: 265.26px; border: 5px solid #f2f2f2" src="img/Terrorifica-elipse.png" class="d-block">
-                  </div>
-                  <div class="item 3" style="margin: auto;">
-                   <img style="width: 265.26px; border-radius: 50%;height: 265.26px; border: 5px solid #f2f2f2" src="img/Medianoche-elipse.png" class="d-block">
-                  </div>
-               </div>
-              </div>
-              <div class="carousel-item">
-                <div class= "grid-container2" >
-                  <div class="item 1" style="margin: auto;">
-                   <img style="width: 265.26px; border-radius: 50%;height: 265.26px; border: 5px solid #f2f2f2" src="img/Emilbus Lainomerec Ebycolisp-elipse.png" class="d-block" >
-                  </div>
-                  <div class="item 2" style="margin: auto;">
-                   <img style="width: 265.26px; border-radius: 50%;height: 265.26px; border: 5px solid #f2f2f2" src="img/Terrorifica-elipse.png" class="d-block">
-                  </div>
-                  <div class="item 3" style="margin: auto;">
-                   <img style="width: 265.26px; border-radius: 50%;height: 265.26px; border: 5px solid #f2f2f2" src="img/Medianoche-elipse.png" class="d-block">
-                  </div>
-               </div>
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade1"
+              data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade1"
+              data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-        <div>
-          <a href="https://rf25cr.com/25-aniversario/"> 
-            <img class="d-block w-100" src="img/estelar_estelarnue.jpg" >
-         </a>
+          </div>
+          <div>
+            <a href="https://rf25cr.com/25-aniversario/">
+              <img class="d-block w-100" src="img/estelar_estelarnue.jpg">
+            </a>
+          </div>
         </div>
-            
-       </main>
+      </main>  
 
-       <footer class = "iconofooter" style="padding: 0;">
+      <footer class="iconofooter" style="padding: 0;">
         <div>
-          <i class="icono fab fa-facebook-f"></i>
-          <i class="icono fab fa-instagram"></i>
-          <i class="icono fab fa-youtube"></i> 
-        </div>
-        
+          <p>
+            © Copyrights <strong> Rack Metal Magazine</strong>. All Rights Reserved. 
+            <br>
+            Tel:2125-2628. rmm@gmail.com.
           
-       </footer>
-
+          </p>
+        </div>
+        <br>
+        <div style="padding: 20px;">
+          <a href="https://www.youtube.com/"><i class="icono fab fa-youtube"></i></a>
+          <a href="https://www.instagram.com/"><i class="icono fab fa-instagram"></i></a>
+          <a href="https://es-la.facebook.com/"><i class="icono fab fa-facebook"></i></a>
+        </div>
+        <br>
+      </footer>
 
     </div>
     <script src="https://kit.fontawesome.com/a2e920d021.js" crossorigin="anonymous"></script>
-</body>
+  </body>
+
 </html>
