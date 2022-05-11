@@ -4,6 +4,38 @@
  
 }
 
+/* telefonos super pequeños */
+@media (min-width: 330px)
+{
+    #barraDeArriba {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+/* telefonos pequeños */
+@media (min-width: 576px)
+{
+    #barraDeArriba {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+/* tablets y pantallas pequeñas de laptop*/
+@media (min-width: 768px) {
+}
+
+/* pantallas de laptop y compu normal*/
+@media (min-width: 992px) {
+
+}
+
+/* las pantallas muy grandes */
+@media (min-width: 1200px) {
+
+}
+
 body {
     background: #fff;
 }
@@ -85,6 +117,7 @@ h2 {
 }
   
 
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -93,17 +126,22 @@ h2 {
     padding: 10px;
   }
 
+  .carousel-indicators [data-bs-target] {
+    margin-bottom: -1rem;
+    background-color: #000;
+  
+}
+
   .grid-container2 {
     display: grid;
     grid-template-columns: auto auto auto ;
     gap: 20px;
     padding: 0px;
+    height: 324px;
   }
   
 footer {
     background-color: #f2f2f2;
-    
-    height: 222px;
 }
 
 .icono {
@@ -113,6 +151,12 @@ footer {
     padding: 5px;
     display: block;
 } 
+
+i:hover {
+    color: #D92526;
+}
+
 .iconofooter {
     text-align: center;
 }
+

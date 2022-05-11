@@ -77,6 +77,8 @@ h1{
 
 }
 
+
+
 h2{
 padding:38px ;
 width: 1155px;
@@ -96,17 +98,50 @@ h3{
  padding: 6px;
 }
 
+.grid-container3 {
+    display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px;
+  padding: 30px;
+}
+
+.input:hover {
+   background-color: #fff;
+    border: -15px ;
+    border: double;
+}
+
 .grid-container4 {
     display: grid;
   grid-template-columns: auto auto auto;
-  gap: 10px;
-  padding: 10px;
+  gap: 50px;
+  padding: 18px;
 }
 
-
+.btn-2:hover{
+    background-color: #fff;
+    border: 3px solid;
+}
 
 footer {
     background-color: #f2f2f2;
-    
-    height: 222px;
 }
+
+.icono {
+    font-size: 40px;
+    color: #000000;
+    line-height: 100px;
+    padding: 5px;
+    display: block;
+} 
+
+i:hover {
+    color: #D92526;
+
+}
+
+.iconofooter {
+    text-align: center;
+}
+
+
