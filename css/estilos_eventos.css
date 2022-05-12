@@ -58,11 +58,6 @@ nav ul {
     font-family: 'Roboto', sans-serif;
     
 }
-nav li {
-    display: inline;
-    margin: 20px;
-    line-height: 113px;
-} 
 
 nav a {
     color: black;
@@ -80,12 +75,6 @@ nav a {
 }
  li a {
     padding: 51px;
-}
-li a:hover {
- background-color: rgba(140, 31, 40, 0.4);
- color: #000000;
- padding: 51px;
-
 }
 
 h1{

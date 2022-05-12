@@ -21,7 +21,7 @@ body {
 
 h3 {
     text-align: center;
-    font-size: 16px;
+    font-size: 30px;
     color: #8D1F28;
 }
 
@@ -45,15 +45,8 @@ ul {
 }
 
 nav ul {
-    
     font-family: 'Roboto', sans-serif;
-    
 }
-nav li {
-    display: inline;
-    margin: 20px;
-    line-height: 113px;
-} 
 
 nav a {
     color: black;
@@ -61,10 +54,6 @@ nav a {
     font-size: 15pt;
 }
 
-.busqueda {
-    border-color: #D92526;
-    padding: 18px;
-}
 
 .rota-horizontal {
     transform: scaleX(-1);
@@ -72,12 +61,7 @@ nav a {
  li a {
     padding: 51px;
 }
-li a:hover {
- background-color: rgba(140, 31, 40, 0.4);
- color: #000000;
- padding: 51px;
 
-}
 .walpaper {
     max-width: 100%;
     padding: 0;
