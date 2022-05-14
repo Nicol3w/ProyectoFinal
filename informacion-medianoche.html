@@ -10,39 +10,38 @@
 </head>
 
 <body> 
-    <div class="header container" style="max-width: 100%;padding: 0;">
-        <div class="container col-lg-6">
-            <div class="flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <div class="col-lg-4" style="padding: 30px;">
-                        <img src="img/imagotipocompleto 1.png"></img>
-                    </div>
-                    <div class="col-lg-2"></div>
-                    <div class="col-lg-6 text-end" style="padding: 40px 30px 30px 30px;">
-                        <input  type="search" style="color: #D92526; border:2px solid; border-radius: 18px; padding-left: 13px;" placeholder="Búsqueda" style="color: black;" name="search">
-                        <img class="rota-horizontal" style= "width: 23.87px; height: 23.87px;"  src="img/search-free-icon-font.png" >
-                    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/imagotipocompleto 1.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-danger" type="submit">Buscar</button>
+          </form>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="eventos.html">Eventos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Información de Bandas
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="información.html">Emilbus Lainomerec Ebycolisp</a></li>
+                  <li><a class="dropdown-item" href="informacion-terrorifica.html">Terrorifica</a></li>
+                  <li><a class="dropdown-item" href="informacion-medianoche.html">Media Noche</a></li>
                 </ul>
-            </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contactos.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <nav class="col-lg-6">
-
-                    <!--div >
-                        <button type="button" class="btn btn-outline-light me-2">Login</button>
-                        <button type="button" class="btn btn-warning">Sign-up</button>
-                    </div-->
-
-            <strong>
-                <ul class="text-end" style="margin: 0;">
-                    <li><a href= "eventos.html" class="text-black">Eventos</a></li>
-                    <li><a href="información.html" class="text-black">Información</a></li>
-                    <li><a href="Contactos.html">Contactos</a></li>
-                    <li> <!---el iconito de accesibilidad va aqui---> </li>
-                </ul>
-            </strong>
-        </nav>
-           
-    </div>
+      </nav>
                             <!-- wallpaper -->
     <section class="centro">
         <div class="row justify-content-center">
@@ -56,11 +55,12 @@
             <h1 class="encabezadoDeBandas">Media Noche</h1>
         <div class="row justify-content-around">
             <div class="col-lg-4 col-md-4 col-xs-8">
-                <img class="walpaper" src="img/Medianoche-elipse.png" alt="terrorifica" srcset="">
+                <img class="walpaper" src="img/Medianochelogo.png" alt="terrorifica" srcset="">
             </div>
             <div class="col-lg-5 col-md-4">
                 <p class="descrpcion">
-                    Creando ambientes existencialistas desde 2018, combinando el sonido sintetizado de objetos físicos
+                    Creando ambientes existencialistas desde 2018, combinando el sonido sintetizado de objetos físicos. Duelos
+                    existenciales resaltan sobre los gritos desesperados, desgarradores y agonizantes.
                 </p>
             </div>
         </div>           
@@ -71,21 +71,13 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                    <img src="img/chompi.png" class="circuloDeBanda" alt="la calavera durante el ritual con una vela">
-                    <h3>Chompi</h3>
+                    <img src="img/Esteban-mora.png" class="circuloDeBanda" alt="la calavera durante el ritual con una vela">
+                    <h3>Esteban Mora</h3>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/bigotes.png" class="circuloDeBanda" alt="acercamiento al interior de un ritual">
-                    <h3>Rikktat</h3>
+                    <img src="img/Gabriel-cabrera.png" class="circuloDeBanda" alt="acercamiento al interior de un ritual">
+                    <h3>Gabriel Cabrera</h3>
                 </div>
-                 <div class="carousel-item">
-                    <img src="img/pando.png" class="circuloDeBanda" alt="materiales desconstruidos víctimas del ritual">
-                    <h3>Pando</h3>
-                </div>
-                <div class="carousel-item">
-                    <img src="img/zepelin.png" class="circuloDeBanda" alt="enfocado en la calavera trstigo del ritual deconstructor">
-                    <h3>Zortrix</h3>
-              </div>
             </div>
     </section>
                                       <!-- Generos -->
@@ -97,10 +89,10 @@
                 <h4>Industrial</h4>
             </div>
             <div class="col-lg-4 col-md-4 col-xs-4">
-                <h4>Thrash</h4>
+                <h4>Ambiente</h4>
             </div>
             <div class="col-lg-4 col-md-4 col-xs-4">
-                <h4>Brutal</h4>
+                <h4>Existencia</h4>
             </div>
           </div>
     </section>
@@ -110,11 +102,15 @@
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
             <div class="carousel-item active">
-                <a href=""><img src="img/Violacion de derechos - 2015-1.png" class="circuloDeBanda" alt="la calavera durante el ritual con una vela">
+                <a href=""><img src="img/hambre - 2018-1.png" class="circuloDeBanda" alt="Hambre presente en todo el mundo">
                 </a>
             </div>
             <div class="carousel-item">
-                <a href=""><img src="img/Capitulos de Frimost - 2018-1.png" class="circuloDeBanda" alt="acercamiento al interior de un ritual">
+                <a href=""><img src="img/nostalgia - 2019-1.png" class="circuloDeBanda" alt="La estatua llora por recordad el pasado">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href=""><img src="img/para que - 2020-1.png" class="circuloDeBanda" alt="La existencia misma en un sonido">
                 </a>
             </div>
             </div>
@@ -133,17 +129,17 @@
         <dsiv class="row justify-content-center">
             <div class="row col-lg-10 col-md-10 col-sm-12">
                 <div class="col-lg-4 col-md-3 col-sm-12">
-                    <img class="portada" src="img/Violacion de derechos - 2015.png" alt="El hombre que vuela sobre todos sus excesos">
+                    <img class="portada" src="img/hambre - 2018.png" alt="Hambre presente en todo el mundo">
                 </div>
                 <div class="col-lg-6 col-md-5 col-sm-12">
-                    <h2 class="titulo">Violacion de derechos - 2015</h2>
-                    <h5 class="subtitulo">Terrorifica</h5>
+                    <h2 class="titulo">Hambre - 2018</h2>
+                    <h5 class="subtitulo">Media Noche</h5>
                     <ul>
                         <li class="listaIntegrantes">
-                            Zortrix
+                            Esteban Mora
                         </li>
                         <li class="listaIntegrantes">
-                            Rikktat
+                            Gabriel Cabrera
                         </li>
                     </ul>
                 </div>
@@ -152,25 +148,7 @@
         <div class="row col-lg-10 col-md-10 col-sm-12 listaDeCanciones">
             <ul>
                 <li class="canciones">
-                    <img src="img/cancion.png" alt=""> 01 - In Times Of War <strong class="tiempo">04:44</strong>
-                </li>
-                <li class="canciones">
-                    <img src="img/cancion.png" alt=""> 02 - HSC+ <strong class="tiempo">06:02</strong>
-                </li>
-                <li class="canciones">
-                    <img src="img/cancion.png" alt=""> 03 - In Silence We Death <strong class="tiempo">07:40</strong>
-                </li>
-                <li class="canciones">
-                    <img src="img/cancion.png" alt=""> 04 - Mutante <strong class="tiempo">08:41</strong>
-                </li>
-                <li class="canciones">
-                    <img src="img/cancion.png" alt=""> 05 - Psychophonic <strong class="tiempo">04:44</strong>
-                </li>
-                <li class="canciones">
-                    <img src="img/cancion.png" alt=""> 06 - Violación <strong class="tiempo">04:31</strong>
-                </li>
-                <li class="canciones">
-                    <img src="img/cancion.png" alt=""> 07 - Altar a la Neurasis <strong class="tiempo"> 02:47</strong>
+                    <img src="img/cancion.png" alt=""> 01 - Hambre <strong class="tiempo">03:09</strong>
                 </li>
             </ul>
         </div>
@@ -179,17 +157,17 @@
         <dsiv class="row justify-content-center">
             <div class="row col-lg-10 col-md-10 col-sm-12">
                 <div class="col-lg-4 col-md-3 col-sm-12">
-                    <img class="portada" src="img/Capitulos de Frimost - 2018.png" alt="la calavera durante el ritual con una vela">
+                    <img class="portada" src="img/nostalgia - 2019.png" alt="La estatua llora por recordad el pasado">
                 </div>
                 <div class="col-lg-6 col-md-5 col-sm-12">
-                    <h2 class="titulo">Capitulos de Frimost - 2018</h2>
-                    <h5 class="subtitulo">Terrorifica</h5>
+                    <h2 class="titulo">Nostalgia - 2019</h2>
+                    <h5 class="subtitulo">Media Noche</h5>
                     <ul>
                         <li class="listaIntegrantes">
-                            Zortrix
+                            Esteban Mora
                         </li> 
                         <li class="listaIntegrantes">
-                            Rikktat
+                            Gabriel Cabrera
                         </li>
                     </ul>
                 </div>
@@ -198,31 +176,33 @@
         <div class="row col-lg-10 col-md-10 col-sm-12 listaDeCanciones">
             <ul>
                 <li class="canciones">
-                    <img src="img/cancion.png" alt=""> 01 - Ritual (Invocacion de Frimost) <strong class="tiempo">06:56</strong>
+                    <img src="img/cancion.png" alt=""> 01 - Nostalgia<strong class="tiempo">03:32</strong>
                 </li>
+            </ul>
+        </div>
+        <dsiv class="row justify-content-center">
+            <div class="row col-lg-10 col-md-10 col-sm-12">
+                <div class="col-lg-4 col-md-3 col-sm-12">
+                    <img class="portada" src="img/para que - 2020.png" alt="La existencia misma en un sonido">
+                </div>
+                <div class="col-lg-6 col-md-5 col-sm-12">
+                    <h2 class="titulo">Para Que - 2020</h2>
+                    <h5 class="subtitulo">Media Noche</h5>
+                    <ul>
+                        <li class="listaIntegrantes">
+                            Esteban Mora
+                        </li> 
+                        <li class="listaIntegrantes">
+                            Gabriel Cabrera
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>           
+        <div class="row col-lg-10 col-md-10 col-sm-12 listaDeCanciones">
+            <ul>
                 <li class="canciones">
-                    <img src="img/cancion.png" alt=""> 02 - Ginofobia <strong class="tiempo">05:07</strong>
-                </li>
-                <li class="canciones">
-                    <img src="img/cancion.png" alt=""> 03 - Ascension de Frimost <strong class="tiempo">04:12</strong>
-                </li>
-                <li class="canciones">
-                    <img src="img/cancion.png" alt=""> 04 - Zombies <strong class="tiempo">05:06</strong>
-                </li>
-                <li class="canciones">
-                    <img src="img/cancion.png" alt=""> 05 - Horror <strong class="tiempo">04:44</strong>
-                </li>
-                <li class="canciones">
-                    <img src="img/cancion.png" alt=""> 06 - Violencia Domestica <strong class="tiempo">03:45</strong>
-                </li>
-                <li class="canciones">
-                    <img src="img/cancion.png" alt=""> 07 - Decada de la Plaga <strong class="tiempo">06:33</strong>
-                </li>
-                <li class="canciones">
-                    <img src="img/cancion.png" alt=""> 08 - Mente Tranquila <strong class="tiempo">02:50</strong>
-                </li>
-                <li class="canciones">
-                    <img src="img/cancion.png" alt=""> 09 - Nauseabundo <strong class="tiempo">03:55</strong>
+                    <img src="img/cancion.png" alt=""> 01 - Para que<strong class="tiempo">02:40</strong>
                 </li>
             </ul>
         </div>

@@ -27,11 +27,6 @@ nav ul {
     font-family: 'Roboto', sans-serif;
     
 }
-nav li {
-    display: inline;
-    margin: 20px;
-    line-height: 113px;
-} 
 
 nav a {
     color: black;
@@ -49,12 +44,6 @@ nav a {
 }
  li a {
     padding: 51px;
-}
-li a:hover {
- background-color: rgba(140, 31, 40, 0.4);
- color: #000000;
- padding: 51px;
-
 }
 
 h1{
@@ -95,6 +84,25 @@ h2 {
     padding: 10px;
   }
 
+  @media (max-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto ;
+        gap: 10px;
+        padding: 10px;
+      }
+
+      .grid-container2 {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+        padding: 0px;
+        height: 324px;
+      }
+
+
+  }
+
   .carousel-indicators [data-bs-target] {
     margin-bottom: -1rem;
     background-color: #000;
@@ -129,166 +137,4 @@ i:hover {
     text-align: center;
 }
 
-/* telefonos super pequeños */
-@media (min-width: 330px)
-{
-    #barraDeArriba {
-        max-width: 100%;
-        width: 100%;
-    }
 
-    * {
-        margin: 0%;
-        box-sizing:border-box;
-     
-    }
-    
-    
-    body {
-        background: #fff;
-    }
-    
-    .header {
-        background-color:#f2f2f2;
-        padding: 15px;
-        display: flex;
-        
-      
-    }
-    
-    .logo {
-         size: 254px 5px;
-         padding: 30px;
-    }
-    
-    nav ul {
-        
-        font-family: 'Roboto', sans-serif;
-        
-    }
-    nav li {
-        display: inline;
-        margin: 20px;
-        line-height: 113px;
-    } 
-    
-    nav a {
-        color: black;
-        text-decoration: none;
-        font-size: 15pt;
-    }
-    
-    .busqueda {
-        border-color: #D92526;
-        padding: 18px;
-    }
-    
-    .rota-horizontal {
-        transform: scaleX(-1);
-    }
-     li a {
-        padding: 51px;
-    }
-    li a:hover {
-     background-color: rgba(140, 31, 40, 0.4);
-     color: #000000;
-     padding: 51px;
-    
-    }
-    
-    h1{
-        text-align: center;
-        padding: 30px;
-        
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        font-size: 56pt;
-        line-height: revert;
-        color: #8D1F28
-        
-    }
-    
-    h3 {
-     color:#fff;
-     font-family: 'Rock Salt', cursive;
-     font-size: 30px;
-    padding:10px;
-    
-    }
-    
-    h2 {
-        color:#fff;
-        font-family: 'Roboto', sans-serif; 
-        font-weight: bold;
-        font-size: 48px;
-       padding: 40px;
-    }
-      
-    
-    
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        gap: 10px;
-        
-        padding: 10px;
-      }
-    
-      .carousel-indicators [data-bs-target] {
-        margin-bottom: -1rem;
-        background-color: #000;
-      
-    }
-    
-      .grid-container2 {
-        display: grid;
-        grid-template-columns: auto auto auto ;
-        gap: 20px;
-        padding: 0px;
-        height: 324px;
-      }
-      
-    footer {
-        background-color: #f2f2f2;
-    }
-    
-    .icono {
-        font-size: 40px;
-        color: #000000;
-        line-height: 100px;
-        padding: 5px;
-        display: block;
-    } 
-    
-    i:hover {
-        color: #D92526;
-    }
-    
-    .iconofooter {
-        text-align: center;
-    }
-    
-}
-
-/* telefonos pequeños */
-@media (min-width: 576px)
-{
-    #barraDeArriba {
-        max-width: 100%;
-        width: 100%;
-    }
-}
-
-/* tablets y pantallas pequeñas de laptop*/
-@media (min-width: 768px) {
-}
-
-/* pantallas de laptop y compu normal*/
-@media (min-width: 992px) {
-
-}
-
-/* las pantallas muy grandes */
-@media (min-width: 1200px) {
-
-}
