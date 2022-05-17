@@ -4,37 +4,6 @@
  
 }
 
-/* telefonos super pequeños */
-@media (min-width: 330px)
-{
-    #barraDeArriba {
-        max-width: 100%;
-        width: 100%;
-    }
-}
-
-/* telefonos pequeños */
-@media (min-width: 576px)
-{
-    #barraDeArriba {
-        max-width: 100%;
-        width: 100%;
-    }
-}
-
-/* tablets y pantallas pequeñas de laptop*/
-@media (min-width: 768px) {
-}
-
-/* pantallas de laptop y compu normal*/
-@media (min-width: 992px) {
-
-}
-
-/* las pantallas muy grandes */
-@media (min-width: 1200px) {
-
-}
 
 body {
     background: #fff;
@@ -50,7 +19,7 @@ body {
 
 .logo {
      size: 254px 5px;
-     padding: 30px;
+     
 }
 
 nav ul {
@@ -65,10 +34,10 @@ nav a {
     font-size: 15pt;
 }
 
-.busqueda {
+ .busqueda {
     border-color: #D92526;
     padding: 18px;
-}
+} 
 
 .rota-horizontal {
     transform: scaleX(-1);
@@ -102,7 +71,7 @@ h2 {
     font-family: 'Roboto', sans-serif; 
     font-weight: bold;
     font-size: 48px;
-   padding: 40px;
+   padding: 39px;
 }
   
 
@@ -114,6 +83,8 @@ h2 {
     
     padding: 10px;
   }
+
+  
 
   .carousel-indicators [data-bs-target] {
     margin-bottom: -1rem;
@@ -149,3 +120,73 @@ i:hover {
     text-align: center;
 }
 
+
+
+@media (min-width: 768px) {
+    
+    .logo {
+        size: 254px 5px;
+        padding-left: 9px;
+   }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto ;
+        gap: 10px;
+        padding: 10px;
+      }
+
+      .grid-container2 {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+        padding: 0px;
+        height: 324px;
+      }
+
+      h1{
+        text-align: center;
+        padding: 30px;
+        
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 48pt;
+        line-height: revert;
+        color: #8D1F28
+        
+    }
+
+  }
+
+
+
+
+@media (max-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto ;
+        gap: 10px;
+        padding: 10px;
+      }
+
+      .grid-container2 {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+        padding: 0px;
+        height: 324px;
+      }
+
+      h1{
+        text-align: center;
+        padding: 30px;
+        
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 48pt;
+        line-height: revert;
+        color: #8D1F28
+        
+    }
+
+  }
