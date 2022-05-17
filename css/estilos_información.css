@@ -8,7 +8,9 @@
     font-family: 'RockSalt-Regular';
     src: url('../img/RockSalt-Regular.ttf') format('truetype');
 }
-
+nav {
+    position: fixed;
+}
 body {
     background: #fff;
 }
@@ -70,8 +72,17 @@ nav a {
 .encabezadoDeBandas {
     color: #8D1F28;
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     margin: 40px 0px 40px 0px;
+    font-family: 'RockSalt-Regular';
+}
+
+.encabezadoDeIntegrantes {
+    color: #8D1F28;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin: 40px 0px 40px 0px;
+    font-family: 'RockSalt-Regular';
     text-align: center;
 }
 
@@ -146,6 +157,7 @@ nav a {
 .canciones {
     color: #000000;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 .tiempo {
     color: #8D1F28;
