@@ -27,6 +27,11 @@ nav ul {
     
 }
 
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 15pt;
+}
 
 .busqueda {
     border-color: #D92526;
@@ -39,11 +44,11 @@ nav ul {
 
 h1{
     text-align: left;
-    padding: 30px;
+    padding: 55px;
     
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-     font-size: 48px;
+    font-size: 48px;
     line-height: revert;
     color: #8D1F28
     
@@ -60,13 +65,12 @@ h1{
 
 
 h2{
-padding:38px ;
-width: 1155px;
-height: 171px;
+padding:40px 51px ;
+
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
-font-size: 64px;
+font-size: 48px;
 line-height: 75px;
 color: #fff;
 }
@@ -85,7 +89,7 @@ h3{
   padding: 30px;
 }
 
-.input:hover {
+.btn1:hover {
    background-color: #fff;
     border: -15px ;
     border: double;
@@ -124,4 +128,37 @@ i:hover {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .grid-container4 {
+        display: grid;
+        grid-template-columns: auto ;
+        gap: 10px;
+        padding: 10px;
+      }
 
+      h2{
+        padding:40px ;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 75px;
+        color: #fff;
+        }
+       
+        .form-label {
+            color:#8D1F28;
+            font-family: 'Rock Salt', cursive;
+            font-size: 32px;
+           padding: 6px;
+        
+        }
+
+     .grid-container3 {
+            display: grid;
+          grid-template-columns: auto;
+          gap: 50px;
+          padding: 30px;
+        }
+
+    }
