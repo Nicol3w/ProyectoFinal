@@ -121,46 +121,6 @@ i:hover {
 }
 
 
-
-@media (min-width: 768px) {
-    
-    .logo {
-        size: 254px 5px;
-        padding-left: 9px;
-   }
-    
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto ;
-        gap: 10px;
-        padding: 10px;
-      }
-
-      .grid-container2 {
-        display: grid;
-        grid-template-columns: auto;
-        gap: 20px;
-        padding: 0px;
-        height: 324px;
-      }
-
-      h1{
-        text-align: center;
-        padding: 30px;
-        
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        font-size: 48pt;
-        line-height: revert;
-        color: #8D1F28
-        
-    }
-
-  }
-
-
-
-
 @media (max-width: 768px) {
     .grid-container {
         display: grid;
