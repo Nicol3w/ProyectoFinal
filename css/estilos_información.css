@@ -177,3 +177,29 @@ nav a {
     color: #000000;
 }
 
+.logoRedes {
+    width: 100px;
+}
+
+.logoRedesF {
+    width: 40px;
+}
+
+.links {
+    margin-top: 5%;
+}
+
+footer {
+    background-color: #f2f2f2;
+}
+
+.icono {
+    font-size: 40px;
+    color: #000000;
+    line-height: 100px;
+    padding: 5px;
+    display: block;
+} 
+.iconofooter {
+    text-align: center;
+}
